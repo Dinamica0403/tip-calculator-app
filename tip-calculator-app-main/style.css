@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'space Mono' sans-serif;
+}
+:root{
+    --Strong-cyan: hsl(172, 67%, 45%);
+    --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Dark-grayish-cyan: hsl(186, 14%, 43%);
+    --Grayish-cyan: hsl(184, 14%, 56%);
+--Light-grayish-cyan: hsl(185, 41%, 84%);
+--Very-light-grayish-cyan: hsl(189, 41%,97%);
+--White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Light-grayish-cyan);
+}
+section{
+    width: 70%;
+    margin: 10% auto;
+    text-align: center;
+}
+.section-container{
+    width: 100%;
+    background: var(--White);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+.left, .right{
+    width:50%;
+    text-align: left;
+}
+.bill{
+    margin-bottom: 2rem;
+}
+.bill > p{
+    color: var(--Very-dark-cyan);
+    font-weight: 900;
+}
+input{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 24px;
+    background-color: var(--Very-light-grayish-cyan);
+    outline: none;
+    border: none;
+    border-radius: 0.3rem;
+    margin: 0.5rem 0;
+    color: var(--Grayish-cyan);
+    text-align: end;
+    font-weight: 900;
+}
+input > ::placeholder{
+    /* text-align: end; */
+    color: var(--Grayish-cyan);
+}
+.icon-img{
+    margin-top: -2.5rem;
+    margin-left: 1rem;
+}
+.select-tip > p{
+    color: var(--Very-dark-cyan);
+    font-weight: 900;
+}
+.select-btn{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.select-btn > button{
+    width: 30%;
+    padding: 0.5rem 1rem;
+    background: var(--Very-dark-cyan);
+    color: var(--White);
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+.select-btn > input{
+    width: 30%;
+    padding: 0.7rem 1rem;
+    height: fit-content;
+    margin-top: 0;
+    font-size: 1rem;
+}
+.select-btn > button:nth-child(4){
+    height: fit-content;
+}
+.select-btn > button:nth-child(5){
+    height: fit-content;
+}
+
+
+
+
+
+
+
+.right{
+    background: var(--Very-dark-cyan);
+}

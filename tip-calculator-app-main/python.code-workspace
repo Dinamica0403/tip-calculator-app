@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../../../python"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tip-calculator-app-main"
+	}
+}
